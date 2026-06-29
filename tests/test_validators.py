@@ -15,4 +15,5 @@ def test_get_validator_status_returns_documented_fields() -> None:
         "uptime_percent": 99.9,
         "jailed_bnb": False,
         "slashable": False,
+        "reward_rate": 0.12,
     }
