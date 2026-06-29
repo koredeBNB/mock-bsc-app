@@ -7,4 +7,5 @@ def get_validator_status(validator_id: str) -> dict[str, object]:
         "validator_id": validator_id,
         "status": "active",
         "commission_rate": 0.05,
+        "voting_power": 1000,
     }
