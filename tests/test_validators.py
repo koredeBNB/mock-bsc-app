@@ -11,4 +11,5 @@ def test_get_validator_status_returns_documented_fields() -> None:
         "status": "active",
         "commission_rate": 0.05,
         "voting_power": 1000,
+        "delegator_count": 25,
     }
