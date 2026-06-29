@@ -14,4 +14,5 @@ def test_get_validator_status_returns_documented_fields() -> None:
         "delegator_count": 25,
         "uptime_percent": 99.9,
         "jailed_bnb": False,
+        "slashable": False,
     }

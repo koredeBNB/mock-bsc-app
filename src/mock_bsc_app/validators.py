@@ -11,4 +11,5 @@ def get_validator_status(validator_id: str) -> dict[str, object]:
         "delegator_count": 25,
         "uptime_percent": 99.9,
         "jailed_bnb": False,
+        "slashable": False,
     }
