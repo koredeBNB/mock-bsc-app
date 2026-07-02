@@ -8,9 +8,10 @@ def test_get_gas_fee_status_returns_documented_fields() -> None:
 
     assert status == {
         "network": "bnb-smart-chain",
-        "base_fee_gwei": 3.2,
-        "priority_fee_gwei": 0.8,
-        "estimated_total_fee_gwei": 4.0,
-        "congestion_level": "low",
-        "sample_block": 39124801,
+        "base_fee_gwei": 3.5,
+        "priority_fee_gwei": 1.1,
+        "estimated_total_fee_gwei": 4.6,
+        "congestion_level": "medium",
+        "sample_block": 39126000,
+        "fee_trend": "rising",
     }
