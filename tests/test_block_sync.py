@@ -13,4 +13,5 @@ def test_get_block_sync_status_returns_documented_fields() -> None:
         "finalized_block": 39125810,
         "sync_lag_blocks": 80,
         "is_syncing": False,
+        "sync_mode": "full",
     }
