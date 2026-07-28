@@ -12,4 +12,6 @@ def get_block_sync_status(network: str) -> dict[str, object]:
         "is_syncing": False,
         # Full nodes download and verify the complete chain history.
         "sync_mode": "full",
+        # Checkpoints are verified before their state is trusted.
+        "checkpoint_verification": True,
     }

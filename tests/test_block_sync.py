@@ -14,4 +14,5 @@ def test_get_block_sync_status_returns_documented_fields() -> None:
         "sync_lag_blocks": 80,
         "is_syncing": False,
         "sync_mode": "full",
+        "checkpoint_verification": True,
     }
