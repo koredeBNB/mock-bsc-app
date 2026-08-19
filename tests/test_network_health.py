@@ -12,4 +12,5 @@ def test_get_network_health_returns_documented_fields() -> None:
         "peer_count": 64,
         "rpc_latency_ms": 42,
         "latest_block": 39126100,
+        "finalized_block": 39126096,
     }

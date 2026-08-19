@@ -9,4 +9,5 @@ def get_network_health(network: str) -> dict[str, object]:
         "peer_count": 64,
         "rpc_latency_ms": 42,
         "latest_block": 39126100,
+        "finalized_block": 39126096,
     }
